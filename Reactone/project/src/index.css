@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Adding a tiny bit of custom CSS just to handle image aspect ratios cleanly */
+img {
+  object-fit: contain;
+}
